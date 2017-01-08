@@ -22,7 +22,7 @@ function hasClass(ele, cls) {
  * @return {[type]} array [返回匹配的DOM元素数组]
  */
 function getByClassName(ele, cls) {
-  var elements = obj.getElementsByTagName("*"); //获取obj节点内所有后代节点
+  var elements = ele.getElementsByTagName("*"); //获取obj节点内所有后代节点
   var resluts = [];                             //保存获取到的节点数组
 
   for(var i=0; i<elements.length; i++) {
