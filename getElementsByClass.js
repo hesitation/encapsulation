@@ -16,7 +16,7 @@ function hasClass(ele, cls) {
 }
 
 /**
- * 为IE6、7、8封装getElementsByClassName()函数
+ * 为IE6、7、8封装getElementsByClassName()函数,根据class获取元素
  * @param  {[节点]} obj [需要查找的节点]
  * @param  {[属性值]} cls [class属性值]
  * @return {[type]} array [返回匹配的DOM元素数组]
