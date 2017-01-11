@@ -9,10 +9,9 @@ function hasClass(ele, cls) {
   for(var j=0; j<clsArray.length; j++) {
     if(clsArray[j] === cls) {
       return true;
-    } else {
-      return false;
-    }
+    } 
   }
+  return false;
 }
 
 /**
